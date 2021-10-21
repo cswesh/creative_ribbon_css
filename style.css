@@ -27,6 +27,7 @@ body{
     background: #af43f1;
     border-radius: 30px;
     border-bottom-left-radius: 0;
+    z-index: 1;
 }
 .card i::before{
     content:'';
@@ -49,3 +50,11 @@ body{
     z-index: 1;
 }
 
+.card img{
+    position: absolute;
+    height: 95%;
+    width: 90%;
+    top: 2%;
+    left: 5%;
+    z-index: 0;
+}
